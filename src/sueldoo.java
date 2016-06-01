@@ -1,11 +1,8 @@
 
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// crear un programa que calcule el sueldo de 500 trabajadores, sabiendo que el sueldo para uno administrativo es 45 y para uno de produccion o planta es 60
+// usar funciones
 
 /**
  *
@@ -25,7 +22,7 @@ public class sueldoo
         
          System.out.print("ingresa el numero de horas del trabajador: ");
          hor=br.nextDouble();
-         System.out.println("ingresa 1 si es trabajador adeministrativo y 2 si es de planta: ");
+         System.out.print("ingresa 1 si es trabajador adeministrativo y 2 si es de planta: ");
          tipotrabajador=br.nextInt();
        // res= calsueldobruto(20,1);
          res=calsueldobruto(hor,tipotrabajador);
